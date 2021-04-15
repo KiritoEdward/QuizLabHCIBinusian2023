@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif; /* font family */
+}
+.brandLogo{
+    height:60px;
+}
+nav{
+    background-color:#303030; /* navbar background color */
+    padding: 1px;
+}
+nav li{ 
+    display: inline;    /* nav  menus will display in line */
+    margin-left: 20px; /* margin between each li from left side */
+}
+nav li a{
+    text-decoration: none; /* removes underline of <a> tag */
+    color: white;
+    font-weight: bold;
+}
+
+.banner{
+    background-color:#12273b; /* background color of banner */
+    height:450px; /* height and width of banner */
+    width: 100%;
+}
+.bannerImg{
+  background-image: url("assets/backgroundHeader.png"); /* background image used */
+  height: 330px; /* You must set a specified height */
+  width: 750px;
+  background-position: center; /* position Center of image */
+  background-repeat: no-repeat; /*  no repeat  image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    margin-left: 320px;
+}
+.bannerImg:hover{ /* Pseudo code hover banner image it will change the image */
+  background-image: url("assets/backgroundHeader2.jpg"); /* on hover it will display this img */
+  height: 330px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.bannerText{
+    text-align: center;
+    font-size: 18px;
+    color:white;
+}
+/* course gallery */
+.courseList{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height:420px;
+}
+.course_main{
+    float: left; /* float left will arrange div to left of its container */
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.course{
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.courseImg{
+    height:150px;
+    width:150px;
+}
+
+.footer{
+    padding: 20px;
+    background-color: #303030;
+    font-size: 14px;
+    color:white;
+    height:60px;
+}
+.footer a{
+    text-decoration: none;
+    color:darkcyan;
+}
+#socialMedia{
+    text-align: right;
+}
+#socialMedia li{
+    display: inline;
+    position: relative;
+    right:50px;
+    bottom:30px;
+}
+.mediaImg{
+    height:30px;
+    width:30px;
+}
+
+/* signup form css starts here */
+h2{text-align: center;}
+.signUpform{
+    width:450px;
+    margin: auto; /* form div will set to center of the page */
+    border:2px solid dodgerblue;
+    border-radius: 5px;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 8px #888888; /* box shadow effect for sign up form */
+}
+label{
+    font-weight: bold; /* form labels in bold */
+}
+.form-control{
+    height:30px;
+    width: 100%;
+    margin: 10px 0;
+}
+.btnsubmit{ /* form button css */
+    padding:15px;
+    width:150px;
+    color:white;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    border: none;
+}
